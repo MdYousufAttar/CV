@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact</h1>
+    <h3>Addres</h3>
+    <p>This is Fictional Addres</p>
+    <h3>Phone</h3>
+    <p>469898476473</p>
+    <h3>Email</h3>
+    <p>j89db22@gmail.com</p>
+    <h2>Contact Us</h2>
+    <form action="mailto:info" method="post" enctype="text/plain">
+        <label for="Name">Enter your name :</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="number">Enter your number :</label>
+        <input type="number" name="number" id="number">
+        <br>
+        <label for="Email">Enter your email :</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="Password">Enter your Password :</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="date">Select your date :</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <label for="check">Want to send :</label>
+        <input type="checkbox" name="check" id="check">
+        <br>
+        <fieldset>
+            <legend>Selects Only one!!!</legend>
+                <input type="radio" name="radio" id="a1"></input>
+                <label for="a1">radio1</label>
+                <input type="radio" name="radio" id="a2"></input>
+                <label for="a2">radio2</label>
+                <input type="radio" name="radio" id="a3"></input>
+                <label for="a3">radio3</label>
+        </fieldset>
+        <br>
+        <!-- Another way of using radio -->
+        <!-- <label for="b1"><input type="radio" name="radio1" id="b1">radio1</label>
+        <label for="b2"><input type="radio" name="radio1" id="b2">radio2</label>
+        <label for="b3"><input type="radio" name="radio1" id="b3">radio3</label>
+        <br> -->
+        <label for="area">Your Response</label>
+        <br>
+        <textarea name="area" id="area" cols=12" rows="8">Enter here</textarea>
+        <br>
+        <input type="submit" name="button" id="button">
+        <br>
+        <input type="button" name="button" id="button" value="Custom Button">
+    </form>
+</body>
+</html>
